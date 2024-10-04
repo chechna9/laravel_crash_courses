@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('invoices', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('customer_id');
+            $table->integer('customer_id');
             $table->integer('amount');
             $table->string('status');//Billed , Paid , Void
             $table->dateTime('billed_date');
