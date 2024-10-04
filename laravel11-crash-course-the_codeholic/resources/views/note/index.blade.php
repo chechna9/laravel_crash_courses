@@ -11,7 +11,7 @@
                 </div>
                 <div class="note-buttons">
                     {{-- laravel pass according to the primary id of the variable --}}
-                    <a href="{{route('note.show',$note)}}" class="note-view-button">View</a>
+                    <a href="{{route('note.show',$note)}}" class="note-edit-button">View</a>
                     <a href="{{route('note.edit',$note)}}" class="note-edit-button">Edit</a>
                     <button class="note-delete-button">Delete</button>
                 </div>
